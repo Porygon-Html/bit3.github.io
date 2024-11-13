@@ -1,0 +1,247 @@
+
+h2{
+    font-family: PoetsenOne-Regular;
+}
+
+li{
+    font-size: 20px;
+}
+
+#b{
+
+    width: 100%;
+    height: 1900px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+
+
+#head{
+    top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: #D9A648;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+
+
+}
+
+#abe{
+ 
+    height: 200px;
+    align-self: center;
+}
+
+#bit{
+    width: 100%;
+    font-size:100px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+display: flex;
+flex-flow: row;
+text-align: center;
+justify-content: center;
+}
+#navegacion{
+    width: 100%;
+    height: 100px;
+    background-color: #D9A648;
+    text-align: center;
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+.boton2{
+    
+   width: 18%;
+   height: 100px;
+    padding-top: 5px;
+    background-color: #D9A648;
+    border: none;
+    display: flex;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(22, 22, 22);
+    display: inline-block;
+  
+}
+
+.hamburguesa { 
+    width: 100%;
+    display: none; 
+    font-size: 40px; 
+    background: none; 
+    border: none; 
+    color: rgb(0, 0, 0); 
+    align-self: center;
+    height: 100px;
+
+    
+}
+
+.hamburguesa:hover{
+    background-color: #6d5303;
+
+}
+
+
+
+.boton2:hover{
+    background-color: #6d5303;
+}
+
+
+#nav2{
+text-align: center;
+}
+
+#contenido{
+    width: 100%;
+    height: 1100px;
+    background-color: #F2D6A2;
+}
+#left{
+    width: 45%;
+    height: 1100px;
+    background-color: #D97941;
+    float: left;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#texto{
+    width: 70%;
+    height: 900px;
+    background-color: #F2D6A2;
+    margin-left: 13px;
+    padding-left: 25px;
+    margin-top: 70px;
+    text-align: left;
+    font-size: 16px;
+    margin: auto;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#right{
+    width: 45%;
+    height: 1100px;
+    background-color: #D97941;
+    float: right;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#words{
+    width: 70%;
+    height: 550px;
+    overflow: hidden;
+    background-color: #F2D6A2;
+    text-indent: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#txt{
+    text-align: center;
+    margin: 25px;
+    font-size: 19px;
+}
+
+#foto{
+    width: 70%;
+    height: 350px;
+    background-color: #593A28;
+    margin: auto; 
+    text-align: center;
+
+}
+
+#fo{
+    height: 300px;
+    width: 80%;
+    padding-top: 25px;
+    text-align: center;
+
+}
+
+#pie{
+    width: 100%;
+    height: 160px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #593A28; 
+    
+
+}
+
+#o{
+    background-image: url(fotos/link.png);
+    width: 300px;
+    height: 300px;
+    margin:20px auto;
+    -webkit-animation:rescale 2s infinite;
+    animation: rescale 2s infinite;
+  }
+#te{
+    font-family: pixel;
+    font-size: 60px;
+    text-decoration: none; 
+}
+#eve{
+height: 120px;
+}
+
+#eve2{
+    height: 120px;
+    }
+
+#aa{
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+
+}
+
+#aa:hover{
+    opacity: 50%;
+    
+}
+  
+@media (max-width: 1250px) { 
+    .boton2  {
+        display: none; 
+    }
+  
+    .hamburguesa {
+        display: inline-block;
+    }
+    #navegacion.mostrar-menu {
+        flex-direction: column; 
+    }
+    #navegacion.mostrar-menu .boton2  {
+        display: block; 
+        width: 100%;
+    }
+ }
+ 
